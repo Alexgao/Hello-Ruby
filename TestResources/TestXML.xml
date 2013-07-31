@@ -1,3 +1,0 @@
-<Resources>
-	<Resource name="SearchBox" type="xpath"  >//*[@name='q']</Resource>
-</Resources>
