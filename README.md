@@ -1,4 +1,4 @@
-Hello-World
+Ruby Hello-World Project
 ===========
 
-Please goto "http://alexgao.github.io/Hello-World"
+If you want look summary, please goto "http://alexgao.github.io/Hello-World"
