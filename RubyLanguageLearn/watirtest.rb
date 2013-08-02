@@ -1,9 +1,10 @@
 # -*- coding:utf-8 -*-
 require 'watir-webdriver'
 
+puts "Open browser."
 #b = Watir::Browser.new :ie
-b = Watir::Browser.new :chrome
-#b = Watir::Browser.new :firefox #, :profile=> firefoxConfig
+#b = Watir::Browser.new :chrome
+b = Watir::Browser.new :firefox #, :profile=> firefoxConfig
 b.window.maximize
 b.goto 'http://heremaps.cn/ '
 searchBox = b.text_field :name => 'q'
@@ -13,7 +14,9 @@ searchButton = b.button :name => 'appbar-search-button'
 searchButton.click
 
 #b.send_keys :enter
-#b.quit
+
+b.quit
+puts "Close browser."
 
 
 def firefoxConfig
